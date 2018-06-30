@@ -1,0 +1,4 @@
+ 3)
+   Private: Métodos e variáveis são visíveis apenas na classe a qual pertencem.
+   Public: Métodos e variáveis são visíveis para todas as classes do programa.
+   Protected: Métodos e variáveis são visíveis na classe a qual pertencem e as classes que herdam da mesma.

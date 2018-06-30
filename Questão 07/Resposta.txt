@@ -1,0 +1,23 @@
+interface:
+public interface RegraCalculo{
+	Double Calcular(Produto produto);
+}
+
+Implementações:
+public class ImpostoRioGrandeDoSul implements RegraCalculo {
+
+	@Override
+	public Double Calcular(Produto produto); {
+		return produto.getValor() * 0.17;
+	}
+
+}
+
+public class ImpostoSantaCatarina implements RegraCalculo {
+
+	@Override
+	public Double Calcular(Produto produto); {
+		return produto.getValor() * 0.12;
+	}
+
+}
